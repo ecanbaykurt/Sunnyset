@@ -9,9 +9,9 @@ export default function HomePage() {
               <h1 className="text-2xl font-bold text-gray-900">Sunnyset</h1>
             </div>
             <div className="hidden md:flex space-x-8">
-              <a href="#features" className="text-gray-600 hover:text-gray-900 transition-colors">Features</a>
-              <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">About</a>
-              <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+              <a href="/safevision" className="text-gray-600 hover:text-gray-900 transition-colors">Safevision</a>
+              <a href="/neighbor-analyse" className="text-gray-600 hover:text-gray-900 transition-colors">Neighbor Analyse</a>
+              <a href="/dashboard" className="text-gray-600 hover:text-gray-900 transition-colors">Dashboard</a>
             </div>
             <div className="flex space-x-4">
               <a href="/test" className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
@@ -39,16 +39,22 @@ export default function HomePage() {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a 
-              href="/test" 
+              href="/safevision" 
               className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all transform hover:scale-105 shadow-lg"
             >
-              Explore Demo
+              Safevision
             </a>
             <a 
-              href="#features" 
+              href="/neighbor-analyse" 
+              className="bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 transition-all transform hover:scale-105 shadow-lg"
+            >
+              Neighbor Analyse
+            </a>
+            <a 
+              href="/dashboard" 
               className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-gray-400 transition-all transform hover:scale-105"
             >
-              Learn More
+              Dashboard
             </a>
           </div>
 
@@ -144,18 +150,22 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="/test" 
+              href="/safevision" 
               className="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all transform hover:scale-105 font-semibold"
             >
-              View Demo Pages
+              Safevision
             </a>
             <a 
-              href="https://plasmic.app" 
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/neighbor-analyse" 
+              className="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-all transform hover:scale-105 font-semibold"
+            >
+              Neighbor Analyse
+            </a>
+            <a 
+              href="/dashboard" 
               className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-blue-600 transition-all transform hover:scale-105 font-semibold"
             >
-              Open Plasmic
+              Dashboard
             </a>
           </div>
         </div>
@@ -170,9 +180,9 @@ export default function HomePage() {
               Built with Next.js 14, TypeScript, TailwindCSS, and Plasmic
             </p>
             <div className="flex justify-center space-x-6">
-              <a href="/test" className="text-gray-400 hover:text-white transition-colors">Demo</a>
-              <a href="#features" className="text-gray-400 hover:text-white transition-colors">Features</a>
-              <a href="https://plasmic.app" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">Plasmic</a>
+              <a href="/safevision" className="text-gray-400 hover:text-white transition-colors">Safevision</a>
+              <a href="/neighbor-analyse" className="text-gray-400 hover:text-white transition-colors">Neighbor Analyse</a>
+              <a href="/dashboard" className="text-gray-400 hover:text-white transition-colors">Dashboard</a>
             </div>
           </div>
         </div>
